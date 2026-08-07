@@ -11,6 +11,12 @@ cask "spiral-slim" do
   desc "Wizard that hardens Brave with enterprise privacy policies"
   homepage "https://spiral-collection.netlify.app/"
 
+  # The archived repo still carries SlimBrave Neo's upstream tags, so a version
+  # check there reports a release that has nothing to do with this cask.
+  livecheck do
+    skip "Archived repository; v1.0.0 is its final Spiral Slim release"
+  end
+
   depends_on macos: :catalina
 
   app "Spiral Slim.app"
