@@ -11,7 +11,7 @@ cask "spiral-slim" do
   desc "Wizard that hardens Brave with enterprise privacy policies"
   homepage "https://spiral-collection.netlify.app/"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Spiral Slim.app"
 

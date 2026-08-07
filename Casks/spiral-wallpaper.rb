@@ -8,7 +8,7 @@ cask "spiral-wallpaper" do
   desc "Browse wallpapers and set them as your desktop background"
   homepage "https://spiral-collection.netlify.app/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Spiral Wallpaper.app"
 
