@@ -40,5 +40,5 @@ This tap only exists because Homebrew requires taps to be their own repository
 named `homebrew-*`.
 
 Not on a Mac, or want to read the source first? The
-[download page](https://spiral-collection.netlify.app) has direct downloads
+[download page](https://spiral-collection.pages.dev) has direct downloads
 for macOS and Windows.

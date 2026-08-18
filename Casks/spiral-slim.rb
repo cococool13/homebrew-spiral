@@ -9,7 +9,7 @@ cask "spiral-slim" do
       verified: "github.com/cococool13/Spiral-Slim/"
   name "Spiral Slim"
   desc "Wizard that hardens Brave with enterprise privacy policies"
-  homepage "https://spiral-collection.netlify.app/"
+  homepage "https://spiral-collection.pages.dev/"
 
   # The archived repo still carries SlimBrave Neo's upstream tags, so a version
   # check there reports a release that has nothing to do with this cask.
