@@ -10,6 +10,10 @@ brew install --cask cococool13/spiral/spiral-wallpaper
 brew install --cask cococool13/spiral/spiral-slim
 ```
 
+```bash
+brew install --cask cococool13/spiral/spiral-resume
+```
+
 That's it. Homebrew adds this tap the first time you run one of those, so
 there is no separate `brew tap` step. To update later:
 
@@ -29,8 +33,9 @@ brew uninstall --zap --cask spiral-wallpaper
 | --- | --- | --- |
 | `spiral-wallpaper` | Spiral Wallpaper — click a wallpaper, it applies | 1.0.3 |
 | `spiral-slim` | Spiral Slim — hardens Brave with enterprise policies | 1.0.0 |
+| `spiral-resume` | Spiral Resume — typeset a resume as PDF or Word | 0.1.1 |
 
-Both are Developer ID signed and notarized by Apple, and each cask pins the
+All three are Developer ID signed and notarized by Apple, and each cask pins the
 SHA-256 published in its release, so Homebrew refuses a file that does not
 match.
 
@@ -40,5 +45,5 @@ This tap only exists because Homebrew requires taps to be their own repository
 named `homebrew-*`.
 
 Not on a Mac, or want to read the source first? The
-[download page](https://spiral-collection.netlify.app) has direct downloads
+[download page](https://spiralcc.tech) has direct downloads
 for macOS and Windows.

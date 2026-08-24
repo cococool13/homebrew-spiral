@@ -6,7 +6,14 @@ cask "spiral-resume" do
       verified: "github.com/cococool13/spiral/"
   name "Spiral Resume"
   desc "Typeset a resume as PDF or Word without changing any fact"
-  homepage "https://spiral-collection.pages.dev/"
+  homepage "https://spiralcc.tech/"
+
+  # Same repo as Wallpaper. Default GitHub livecheck follows v* tags.
+  livecheck do
+    url :url
+    regex(/^resume[._-]v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_releases
+  end
 
   depends_on macos: :ventura
 
