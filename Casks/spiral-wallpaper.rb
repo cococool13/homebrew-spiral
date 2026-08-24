@@ -6,7 +6,7 @@ cask "spiral-wallpaper" do
       verified: "github.com/cococool13/spiral/"
   name "Spiral Wallpaper"
   desc "Browse wallpapers and set them as your desktop background"
-  homepage "https://spiral-collection.netlify.app/"
+  homepage "https://spiralcc.tech/"
 
   depends_on macos: :ventura
 
