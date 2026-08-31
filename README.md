@@ -14,14 +14,11 @@ brew install --cask cococool13/spiral/spiral-slim
 brew install --cask cococool13/spiral/spiral-resume
 ```
 
-That's it. Homebrew adds this tap the first time you run one of those, so
-there is no separate `brew tap` step. To update later:
+That's it. Homebrew adds this tap the first time you run one of those.
 
 ```bash
 brew upgrade --cask spiral-wallpaper
 ```
-
-To remove an app and everything it wrote:
 
 ```bash
 brew uninstall --zap --cask spiral-wallpaper
@@ -31,19 +28,10 @@ brew uninstall --zap --cask spiral-wallpaper
 
 | Cask | App | Version |
 | --- | --- | --- |
-| `spiral-wallpaper` | Spiral Wallpaper — click a wallpaper, it applies | 1.0.3 |
-| `spiral-slim` | Spiral Slim — hardens Brave with enterprise policies | 1.0.0 |
-| `spiral-resume` | Spiral Resume — typeset a resume as PDF or Word | 0.1.1 |
+| `spiral-wallpaper` | Spiral Wallpaper. Click a wallpaper, it applies. | 1.0.3 |
+| `spiral-slim` | Spiral Slim. Hardens Brave, Chrome, Edge, and Firefox. | 1.0.0 |
+| `spiral-resume` | Spiral Resume. Typeset a resume as PDF or Word. | 0.1.1 |
 
-All three are Developer ID signed and notarized by Apple, and each cask pins the
-SHA-256 published in its release, so Homebrew refuses a file that does not
-match.
+Source: [github.com/cococool13/spiral](https://github.com/cococool13/spiral)
 
-The apps themselves, their source, and everything else Spiral live in one
-repository: **[github.com/cococool13/spiral](https://github.com/cococool13/spiral)**.
-This tap only exists because Homebrew requires taps to be their own repository
-named `homebrew-*`.
-
-Not on a Mac, or want to read the source first? The
-[download page](https://spiralcc.tech) has direct downloads
-for macOS and Windows.
+Downloads: [spiralcc.tech](https://spiralcc.tech)
