@@ -1,6 +1,6 @@
 cask "spiral-wallpaper" do
-  version "1.0.3"
-  sha256 "993f029e0c0774d333624c35c4ff4cae65c3680d7a4e8078eddbba152ba1b734"
+  version "1.0.4"
+  sha256 "39becff78ad05abd0e6760d6ff8c3b6f7dad9f2c7c0e02d223364ed25da7eb91"
 
   url "https://github.com/cococool13/spiral/releases/download/v#{version}/Spiral.Wallpaper_#{version}_universal.dmg",
       verified: "github.com/cococool13/spiral/"
