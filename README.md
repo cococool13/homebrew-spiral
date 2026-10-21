@@ -30,7 +30,7 @@ brew uninstall --zap --cask spiral-wallpaper
 | --- | --- | --- |
 | `spiral-wallpaper` | Spiral Wallpaper. Click a wallpaper, it applies. | 1.0.4 |
 | `spiral-slim` | Spiral Slim. Hardens Brave, Chrome, Edge, and Firefox. | 1.0.1 |
-| `spiral-resume` | Spiral Resume. Typeset a resume as PDF or Word. | 0.1.1 |
+| `spiral-resume` | Spiral Resume. Typeset a resume as PDF or Word. | 0.1.2 |
 
 Source: [github.com/cococool13/spiral](https://github.com/cococool13/spiral)
 
