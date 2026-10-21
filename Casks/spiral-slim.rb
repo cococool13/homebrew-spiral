@@ -1,6 +1,6 @@
 cask "spiral-slim" do
   version "1.0.1"
-  sha256 "5400bcef62523a02a4a508254aac98ac6e4f189a0ee2b68b15e2fb5eee6e4fce"
+  sha256 "9db4f3b53406ac8048de727e0241e3b3acee2a5751f6078531df25314328f258"
 
   url "https://github.com/cococool13/spiral/releases/download/slim-v#{version}/Spiral.Slim_#{version}_universal.dmg",
       verified: "github.com/cococool13/spiral/"
