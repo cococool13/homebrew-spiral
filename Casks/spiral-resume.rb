@@ -1,6 +1,6 @@
 cask "spiral-resume" do
-  version "0.1.1"
-  sha256 "38d14cd3c7f5aaf9ffe5668e5893e81bf2d9860168320b56f36b9af74497a564"
+  version "0.1.2"
+  sha256 "ec98b839c5e227e09395b73cbcf652b3cff23a78d0ff9d72abdc536972605638"
 
   url "https://github.com/cococool13/spiral/releases/download/resume-v#{version}/Spiral.Resume_#{version}_universal.dmg",
       verified: "github.com/cococool13/spiral/"
