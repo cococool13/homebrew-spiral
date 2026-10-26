@@ -1,16 +1,16 @@
 cask "spiral-wallpaper" do
-  version "1.0.4"
-  sha256 "39becff78ad05abd0e6760d6ff8c3b6f7dad9f2c7c0e02d223364ed25da7eb91"
+  version "2.0.2"
+  sha256 "330fd5383dbbf81dd2847320fa43be27136f50a0e7e71fe86927021b0efe6b22"
 
-  url "https://github.com/cococool13/spiral/releases/download/v#{version}/Spiral.Wallpaper_#{version}_universal.dmg",
+  url "https://github.com/cococool13/spiral/releases/download/v#{version}/Spiral_#{version}_universal.dmg",
       verified: "github.com/cococool13/spiral/"
-  name "Spiral Wallpaper"
-  desc "Browse wallpapers and set them as your desktop background"
+  name "Spiral"
+  desc "Set wallpapers and typeset resumes in one app"
   homepage "https://spiralcc.tech/"
 
   depends_on macos: :ventura
 
-  app "Spiral Wallpaper.app"
+  app "Spiral.app"
 
   # Everything the app writes lives under its bundle identifier.
   zap trash: [
