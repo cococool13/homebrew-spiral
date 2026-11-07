@@ -1,37 +1,16 @@
-# Spiral — Homebrew tap
+# Spiral Homebrew tap
 
-Install Spiral apps on a Mac with one command.
+Install [Spiral](https://spiralcc.tech) for macOS. The cask name is `spiral-wallpaper` and installs the combined Wallpaper and Resume app.
 
-```bash
+```sh
 brew install --cask cococool13/spiral/spiral-wallpaper
 ```
 
-```bash
-brew install --cask cococool13/spiral/spiral-slim
-```
+Run `brew upgrade --cask spiral-wallpaper` to update or `brew uninstall --cask spiral-wallpaper` to remove it. Add `--zap` only if you also want to remove saved app data.
 
-```bash
-brew install --cask cococool13/spiral/spiral-resume
-```
+| Other casks | Install |
+| --- | --- |
+| [Spiral Slim](Casks/spiral-slim.rb) | `brew install --cask cococool13/spiral/spiral-slim` |
+| [Standalone Spiral Resume](Casks/spiral-resume.rb) | `brew install --cask cococool13/spiral/spiral-resume` |
 
-That's it. Homebrew adds this tap the first time you run one of those.
-
-```bash
-brew upgrade --cask spiral-wallpaper
-```
-
-```bash
-brew uninstall --zap --cask spiral-wallpaper
-```
-
-## What's here
-
-| Cask | App | Version |
-| --- | --- | --- |
-| `spiral-wallpaper` | Spiral Wallpaper. Click a wallpaper, it applies. | 1.0.4 |
-| `spiral-slim` | Spiral Slim. Hardens Brave, Chrome, Edge, and Firefox. | 1.0.1 |
-| `spiral-resume` | Spiral Resume. Typeset a resume as PDF or Word. | 0.1.2 |
-
-Source: [github.com/cococool13/spiral](https://github.com/cococool13/spiral)
-
-Downloads: [spiralcc.tech](https://spiralcc.tech)
+[Source and releases](https://github.com/cococool13/spiral).
